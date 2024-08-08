@@ -1,0 +1,36 @@
+<!-- tab_background.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Selected Tab -->
+    <item android:state_selected="true">
+        <layer-list>
+            <item android:left="@dimen/_2sdp" android:right="@dimen/_2sdp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/_12sdp" /> <!-- Adjust the radius as needed -->
+                    <solid android:color="@color/orange" /> <!-- Blue color for selected tab -->
+                </shape>
+            </item>
+            <item android:bottom="@dimen/_2sdp"> <!-- Add a small bottom border for separation -->
+                <shape android:shape="rectangle">
+                    <solid android:color="@android:color/transparent" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <!-- Unselected Tab -->
+    <item>
+        <layer-list>
+            <item android:left="@dimen/_2sdp" android:right="@dimen/_2sdp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/_12sdp" /> <!-- Square corners for unselected tab -->
+                    <solid android:color="#FFFFFF" /> <!-- Gray color for unselected tab -->
+                </shape>
+            </item>
+            <item android:bottom="@dimen/_2sdp"> <!-- Add a small bottom border for separation -->
+                <shape android:shape="rectangle">
+                    <solid android:color="@android:color/transparent" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

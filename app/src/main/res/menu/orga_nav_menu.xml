@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/icnHome"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home"
+        />
+
+    <item
+        android:id="@+id/icnEvent"
+        android:icon="@drawable/baseline_event_note_24"
+        android:title="My Events" />
+
+
+    <item
+        android:id="@+id/icnProfile"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="Profile" />
+</menu>

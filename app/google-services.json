@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "408536890869",
+    "project_id": "conftech-66a54",
+    "storage_bucket": "conftech-66a54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408536890869:android:7e98d2c6dda060ba66b4bc",
+        "android_client_info": {
+          "package_name": "com.example.conftech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCevcBZQ3kUNi3eWKHZwIEA971EFGjTsyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
